@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Text align</title>
+   <style type="text/css">
+      
+*{
+   border-sizing: border-box;
+}
+
+body{
+   background-color: #333;
+   color: #fff;
+}
+
+
+.text{
+   text-align: left;
+
+}
+
+.box{
+   background-color: #666;
+   width: 100px;
+   padding: 10px 0;
+   margin: 20px 0;
+   border: 2px solid lightcoral;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.link{
+   color: #fff;
+   display: block;
+   text-align: center;
+   margin-bottom: 20px;
+   background-color: #666;
+   width: 400px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.img{
+   text-align: center; /* no hace absolutamente nada aqui */
+   display: block;
+   margin-left: auto;
+   margin-right: auto;  
+}
+
+
+.img-container{
+   text-align: center;
+}
+
+.img2{
+   display: inline-block; /* para imagenes es el valor por defecto, es lo mismo que no colocar nada */
+}
+
+
+   </style>
+</head>
+<body>
+
+<p class="text">
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus laborum dolorem ex nam voluptate, non? Nihil, quis fuga eaque alias neque possimus similique dicta minus quaerat iste atque, corrupti voluptatibus, Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tenetur, nisi dolor, corporis provident nulla temporibus eligendi dolore voluptates totam debitis laboriosam aliquid, consequatur. Architecto, id. Minus optio, culpa non?
+</p>
+
+<div class="box">Border</div>
+
+<a class="link" href="#">Soy un enlace</a>
+
+<img class="img" src="assets/img/gato.jpg" alt="gato">
+<br>
+
+<!-- para probar la opcion 2-->
+<div class="img-container">
+<img class="img2" src="assets/img/gato.jpg" alt="gato">
+</div>
+
+</body>
+</html>

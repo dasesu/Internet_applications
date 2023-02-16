@@ -1,0 +1,24 @@
+body{
+   background-color: #333;
+   color: #fff;
+}
+
+.block{
+   background-color: purple;
+   width: 100px;
+   height: 200px;
+   /* margin: 100px;  100 de cada lado: arriba derecha abajo izquierda */
+   /* margin: 100px 50px;  100 arriba/abajo, 50 derecha/izquierda */
+   /* margin: 100px 50px 10px;  100 arriba, 50 abajo, 10 derecha/izquierda */
+   /* margin: 100px 50px 10px 200px;  100 arriba, 50 derecha, 10 abajo, 200 izquierda */
+   margin-left:auto;
+}
+
+.inline{
+   background-color: lightcoral;
+   color: inherit;
+ /*  width: 100px;
+     height: 200px; */
+
+     margin-top: 100px;
+}

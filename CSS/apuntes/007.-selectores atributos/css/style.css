@@ -1,0 +1,24 @@
+[href]{
+      background-color=light-coral;
+   }
+
+[href="home"]{
+      background-color=blueteal;
+   }
+   
+[href^="color"]{
+      background-color=blueteal;
+   }
+
+[href*="google"]{
+      background-color=blueteal;
+   }
+
+[href$="esperanza"]{
+      background-color=blueteal;
+   }
+
+[href|="en"]{
+      background-color=blueteal;
+   }
+

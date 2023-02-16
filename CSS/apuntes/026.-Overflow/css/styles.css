@@ -1,0 +1,22 @@
+*{
+   bix-sizing: border-box;
+}
+
+body{
+   background-color: #333;
+   color: #fff;
+   margin: 0;
+}
+
+.box{
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 100px;
+   background-color: lightcyan;
+   width: 300px;
+   height: 300px;
+   color: #000;
+   /* overflow-y: hidden; */ 
+   overflow-y: auto;
+   overflow-x: auto;
+}

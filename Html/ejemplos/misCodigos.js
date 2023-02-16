@@ -1,0 +1,1 @@
+document.getElementById("pito").innerHTML = "Mi pito es morado";
