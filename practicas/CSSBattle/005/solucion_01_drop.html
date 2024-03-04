@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+<div class="pill"></div>
+<div class="drop"></div>
+<style>
+  body {
+    position: relative;
+    background-color: #0B2429;
+  }
+  .drop {
+    position: absolute;
+    top: 82px;
+    left: 133px;
+    width: 119px;
+    height: 119px;
+    border-radius: 50% 0 50% 50%;
+    background: #998235;
+  }
+  .drop::before,
+  .drop::after {
+    position: absolute;
+    width: 119px;
+    height: 119px;
+    content: '';
+    
+  }
+  .drop::before {
+    top: 60px;
+    left: -60px;
+    border-radius: 50% 0 50% 50%;
+    background: #F3AC3C;
+  }
+  .drop::after {
+    top: -60px;
+    left: 60px;
+    border-radius: 50% 50% 50% 50%;
+    background: #F3AC3C;
+    z-index:-1;
+  }
+  
+</style>
+  </body>
+</html>

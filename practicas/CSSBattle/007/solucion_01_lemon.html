@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+
+  <div class="lemon"></div>
+
+
+  <div class="lemon"></div>
+
+
+<style>
+  body {
+    background-color: #0B2429;
+    position: relative;
+  }
+  
+  .lemon {
+    position: absolute;
+    top: 67px;
+    left:117px;
+    width: 150px;
+    height: 150px;
+    border-radius: 67% 0 67% 0;
+    background: #998235;
+  }
+  .lemon::before,
+  .lemon::after{
+    position: absolute;
+    content: '';
+    width: 150px;
+    height: 150px;
+    border-radius: 67% 0 67% 0;
+  }
+  .lemon::before {
+    background-color: #1A4341;
+    left:-50px;
+    z-index:-1;
+  }
+  .lemon::after {
+    background-color: #F3AC3C;
+    left: 50px;
+    z-index: 1;
+  }
+</style>
+
+  </body>
+</html>
